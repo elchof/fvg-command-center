@@ -334,7 +334,7 @@ def run_cycle(cfg: dict):
 
 
 if __name__ == "__main__":
-    mode = input("Modo [1] Una pasada ahora | [2] Bucle automático (Enter = 1): ").strip()
+    mode = "1" if os.getenv("CI") else input("Modo [1] Una pasada ahora | [2] Bucle automático (Enter = 1): ").strip()
     if mode == "2":
         print(f"Iniciando bucle cada {CONFIG['loop_seconds']}s. Pulsa Ctrl + C para detener.")
         try:
