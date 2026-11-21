@@ -177,16 +177,13 @@ def fetch_15m(symbol: str, period: str, interval: str) -> Optional[pd.DataFrame]
 
 def step_symbol_paper(symbol: str, df: pd.DataFrame, state: dict, cfg: dict):
     last_idx = len(df) - 1
-    last_ts = df.index[last_idx]
-    last_high = float(df["High"].iloc[last_idx])
-    last_low = float(df["Low"].iloc[last_idx])
     last_close = float(df["Close"].iloc[last_idx])
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
     pos_dict: Dict[str, dict] = state["positions"]
     pos = pos_dict.get(symbol)
 
-       # 1) Gestionar posición existente: se repasan TODAS las velas desde el FVG
+    # 1) Gestionar posición existente: se repasan TODAS las velas desde el FVG
     if pos is not None:
         direction = pos["direction"]
         entry, sl, tp = pos["entry_price"], pos["sl_price"], pos["tp_price"]
@@ -243,7 +240,7 @@ def step_symbol_paper(symbol: str, df: pd.DataFrame, state: dict, cfg: dict):
                 print(f"  [PAPER] {symbol} ({direction}) orden pendiente cancelada (EXPIRED_20_BARS).")
                 del pos_dict[symbol]
 
-       # 2) Si no hay posición en el símbolo, elegir FVG como el scanner: ENTRY activa > pendiente
+    # 2) Si no hay posición en el símbolo, elegir FVG como el scanner: ENTRY activa > pendiente
     if symbol not in pos_dict:
         start_idx = max(2, last_idx - cfg["max_wait_candles"])
         active, waiting = None, None
@@ -314,7 +311,8 @@ def step_symbol_paper(symbol: str, df: pd.DataFrame, state: dict, cfg: dict):
                 f"  ⏳ [PAPER {'ENTRY' if fill_ts is not None else 'ORDEN'}] {symbol} {fvg['direction']} ({fvg['session']}) "
                 f"| Entry 50%: {fvg['entry']:.4f} | SL: {fvg['sl']:.4f} | TP: {fvg['tp']:.4f}"
             )
-        estado_txt = pos_dict[symbol]["status"] if symbol in pos_dict else "SIN_POSICION"
+
+    estado_txt = pos_dict[symbol]["status"] if symbol in pos_dict else "SIN_POSICION"
     print(f"  • {symbol:<10} | Close: {last_close:.4f} | Estado: {estado_txt}")
 
 
@@ -333,6 +331,20 @@ def run_cycle(cfg: dict):
 
     save_state(state, cfg)
     print("=" * 78)
+
+
+if __name__ == "__main__":
+    mode = input("Modo [1] Una pasada ahora | [2] Bucle automático (Enter = 1): ").strip()
+    if mode == "2":
+        print(f"Iniciando bucle cada {CONFIG['loop_seconds']}s. Pulsa Ctrl + C para detener.")
+        try:
+            while True:
+                run_cycle(CONFIG)
+                time.sleep(CONFIG["loop_seconds"])
+        except KeyboardInterrupt:
+            print("\nPaper trader detenido por el usuario.")
+    else:
+        run_cycle(CONFIG)
 
 
 if __name__ == "__main__":
