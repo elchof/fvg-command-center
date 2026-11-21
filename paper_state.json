@@ -1,5 +1,5 @@
 {
-  "balance": 100.0,
+  "balance": 99.0,
   "positions": {
     "TSLA": {
       "trade_id": "TSLA_20261121_120414",
@@ -29,21 +29,6 @@
       "tp_price": 62055.1543640625,
       "risk_amount": 1.0,
       "expires_candle_idx_ref": "2026-11-21 08:45:00-05:00",
-      "entry_time": "2026-11-21 12:45:00-05:00"
-    },
-    "ETH-USD": {
-      "trade_id": "ETH-USD_20261121_174642",
-      "symbol": "ETH-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-21 12:45:00-05:00",
-      "created_at": "2026-11-21 17:46:42 UTC",
-      "entry_price": 1679.5,
-      "sl_price": 1684.8285001831055,
-      "tp_price": 1668.842999633789,
-      "risk_amount": 1.0,
-      "expires_candle_idx_ref": "2026-11-21 12:45:00-05:00",
       "entry_time": "2026-11-21 12:45:00-05:00"
     },
     "SOL-USD": {
