@@ -30,6 +30,21 @@
       "risk_amount": 1.0,
       "expires_candle_idx_ref": "2026-11-21 08:45:00-05:00",
       "entry_time": "2026-11-21 12:45:00-05:00"
+    },
+    "ETH-USD": {
+      "trade_id": "ETH-USD_20261121_224733",
+      "symbol": "ETH-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-21 17:45:00-05:00",
+      "created_at": "2026-11-21 22:47:33 UTC",
+      "entry_price": 1678.25,
+      "sl_price": 1682.8582104003906,
+      "tp_price": 1669.0335791992188,
+      "risk_amount": 0.98,
+      "expires_candle_idx_ref": "2026-11-21 17:45:00-05:00",
+      "entry_time": null
     }
   },
   "seen_fvgs": [
@@ -39,6 +54,7 @@
     "TSLA|2026-11-20 11:30:00-05:00|SHORT",
     "BTC-USD|2026-11-21 08:45:00-05:00|LONG",
     "ETH-USD|2026-11-21 12:45:00-05:00|SHORT",
-    "SOL-USD|2026-11-21 12:00:00-05:00|LONG"
+    "SOL-USD|2026-11-21 12:00:00-05:00|LONG",
+    "ETH-USD|2026-11-21 17:45:00-05:00|SHORT"
   ]
 }
