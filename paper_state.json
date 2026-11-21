@@ -36,7 +36,7 @@
       "symbol": "ETH-USD",
       "direction": "SHORT",
       "session": "CRYPTO_24_7",
-      "status": "PENDING",
+      "status": "OPEN",
       "fvg_time": "2026-11-21 17:45:00-05:00",
       "created_at": "2026-11-21 22:47:33 UTC",
       "entry_price": 1678.25,
@@ -44,7 +44,7 @@
       "tp_price": 1669.0335791992188,
       "risk_amount": 0.98,
       "expires_candle_idx_ref": "2026-11-21 17:45:00-05:00",
-      "entry_time": null
+      "entry_time": "2026-11-21 18:00:00-05:00"
     }
   },
   "seen_fvgs": [
