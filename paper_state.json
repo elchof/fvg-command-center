@@ -1,5 +1,5 @@
 {
-  "balance": 94.07,
+  "balance": 91.25,
   "positions": {
     "TSLA": {
       "trade_id": "TSLA_20261121_120414",
@@ -17,49 +17,34 @@
       "entry_time": null
     },
     "BTC-USD": {
-      "trade_id": "BTC-USD_20261122_053550",
+      "trade_id": "BTC-USD_20261122_083932",
       "symbol": "BTC-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-22 00:15:00-05:00",
-      "created_at": "2026-11-22 05:35:50 UTC",
-      "entry_price": 59014.7109375,
-      "sl_price": 59227.523722656246,
-      "tp_price": 58589.08536718751,
-      "risk_amount": 0.94,
-      "expires_candle_idx_ref": "2026-11-22 00:15:00-05:00",
-      "entry_time": "2026-11-22 01:00:00-05:00"
-    },
-    "ETH-USD": {
-      "trade_id": "ETH-USD_20261122_075117",
-      "symbol": "ETH-USD",
-      "direction": "SHORT",
+      "direction": "LONG",
       "session": "CRYPTO_24_7",
       "status": "PENDING",
-      "fvg_time": "2026-11-21 21:45:00-05:00",
-      "created_at": "2026-11-22 07:51:17 UTC",
-      "entry_price": 1672.0450439453125,
-      "sl_price": 1682.3881927001953,
-      "tp_price": 1651.358746435547,
-      "risk_amount": 0.94,
-      "expires_candle_idx_ref": "2026-11-21 21:45:00-05:00",
+      "fvg_time": "2026-11-22 03:30:00-05:00",
+      "created_at": "2026-11-22 08:39:32 UTC",
+      "entry_price": 59437.91015625,
+      "sl_price": 58959.763590234375,
+      "tp_price": 60394.20328828125,
+      "risk_amount": 0.93,
+      "expires_candle_idx_ref": "2026-11-22 03:30:00-05:00",
       "entry_time": null
     },
-    "SOL-USD": {
-      "trade_id": "SOL-USD_20261122_075118",
-      "symbol": "SOL-USD",
-      "direction": "SHORT",
+    "ETH-USD": {
+      "trade_id": "ETH-USD_20261122_083933",
+      "symbol": "ETH-USD",
+      "direction": "LONG",
       "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-22 00:15:00-05:00",
-      "created_at": "2026-11-22 07:51:18 UTC",
-      "entry_price": 69.12999725341797,
-      "sl_price": 69.3869352531433,
-      "tp_price": 68.6161212539673,
-      "risk_amount": 0.94,
-      "expires_candle_idx_ref": "2026-11-22 00:15:00-05:00",
-      "entry_time": "2026-11-22 02:00:00-05:00"
+      "status": "PENDING",
+      "fvg_time": "2026-11-22 03:30:00-05:00",
+      "created_at": "2026-11-22 08:39:32 UTC",
+      "entry_price": 1676.5550537109375,
+      "sl_price": 1662.4237068237305,
+      "tp_price": 1704.8177474853514,
+      "risk_amount": 0.92,
+      "expires_candle_idx_ref": "2026-11-22 03:30:00-05:00",
+      "entry_time": null
     }
   },
   "seen_fvgs": [
@@ -77,6 +62,8 @@
     "SOL-USD|2026-11-21 21:30:00-05:00|SHORT",
     "BTC-USD|2026-11-22 00:15:00-05:00|SHORT",
     "ETH-USD|2026-11-21 21:45:00-05:00|SHORT",
-    "SOL-USD|2026-11-22 00:15:00-05:00|SHORT"
+    "SOL-USD|2026-11-22 00:15:00-05:00|SHORT",
+    "BTC-USD|2026-11-22 03:30:00-05:00|LONG",
+    "ETH-USD|2026-11-22 03:30:00-05:00|LONG"
   ]
 }
