@@ -16,36 +16,6 @@
       "expires_candle_idx_ref": "2026-11-20 11:30:00-05:00",
       "entry_time": null
     },
-    "ETH-USD": {
-      "trade_id": "ETH-USD_20261122_024216",
-      "symbol": "ETH-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "PENDING",
-      "fvg_time": "2026-11-21 21:30:00-05:00",
-      "created_at": "2026-11-22 02:42:16 UTC",
-      "entry_price": 1678.9849853515625,
-      "sl_price": 1684.9284857666016,
-      "tp_price": 1667.0979845214842,
-      "risk_amount": 0.95,
-      "expires_candle_idx_ref": "2026-11-21 21:30:00-05:00",
-      "entry_time": null
-    },
-    "SOL-USD": {
-      "trade_id": "SOL-USD_20261122_024217",
-      "symbol": "SOL-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "PENDING",
-      "fvg_time": "2026-11-21 21:30:00-05:00",
-      "created_at": "2026-11-22 02:42:17 UTC",
-      "entry_price": 70.00499725341797,
-      "sl_price": 70.28702677917481,
-      "tp_price": 69.44093820190429,
-      "risk_amount": 0.95,
-      "expires_candle_idx_ref": "2026-11-21 21:30:00-05:00",
-      "entry_time": null
-    },
     "BTC-USD": {
       "trade_id": "BTC-USD_20261122_053550",
       "symbol": "BTC-USD",
@@ -60,6 +30,36 @@
       "risk_amount": 0.94,
       "expires_candle_idx_ref": "2026-11-22 00:15:00-05:00",
       "entry_time": "2026-11-22 01:00:00-05:00"
+    },
+    "ETH-USD": {
+      "trade_id": "ETH-USD_20261122_075117",
+      "symbol": "ETH-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-21 21:45:00-05:00",
+      "created_at": "2026-11-22 07:51:17 UTC",
+      "entry_price": 1672.0450439453125,
+      "sl_price": 1682.3881927001953,
+      "tp_price": 1651.358746435547,
+      "risk_amount": 0.94,
+      "expires_candle_idx_ref": "2026-11-21 21:45:00-05:00",
+      "entry_time": null
+    },
+    "SOL-USD": {
+      "trade_id": "SOL-USD_20261122_075118",
+      "symbol": "SOL-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "OPEN",
+      "fvg_time": "2026-11-22 00:15:00-05:00",
+      "created_at": "2026-11-22 07:51:18 UTC",
+      "entry_price": 69.12999725341797,
+      "sl_price": 69.3869352531433,
+      "tp_price": 68.6161212539673,
+      "risk_amount": 0.94,
+      "expires_candle_idx_ref": "2026-11-22 00:15:00-05:00",
+      "entry_time": "2026-11-22 02:00:00-05:00"
     }
   },
   "seen_fvgs": [
@@ -75,6 +75,8 @@
     "ETH-USD|2026-11-21 19:15:00-05:00|SHORT",
     "ETH-USD|2026-11-21 21:30:00-05:00|SHORT",
     "SOL-USD|2026-11-21 21:30:00-05:00|SHORT",
-    "BTC-USD|2026-11-22 00:15:00-05:00|SHORT"
+    "BTC-USD|2026-11-22 00:15:00-05:00|SHORT",
+    "ETH-USD|2026-11-21 21:45:00-05:00|SHORT",
+    "SOL-USD|2026-11-22 00:15:00-05:00|SHORT"
   ]
 }
