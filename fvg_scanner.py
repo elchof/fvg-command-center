@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+﻿from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
@@ -132,7 +132,7 @@ def load_15m_data(ticker: str, period: str, interval: str) -> Optional[pd.DataFr
         if df.index.tz is None:
             df.index = df.index.tz_localize("UTC")
         df = df.tz_convert("America/New_York")
-        return df[["Open", "High", "Low", "Close", "Volume"]].dropna()
+        return df[df.index + pd.Timedelta(minutes=15) <= pd.Timestamp.now(tz="America/New_York")][["Open", "High", "Low", "Close", "Volume"]].dropna()
     except Exception:
         return None
 
