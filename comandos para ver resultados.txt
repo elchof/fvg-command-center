@@ -1,0 +1,11 @@
+para ver los resultados de la estrategia de FVG de ICT:
+cd C:\Users\usuario\Desktop\fvg-command-center
+git pull
+Get-Content .\paper_state.json
+Import-Csv .\paper_trades_log.csv | Format-Table symbol, direction, outcome, pnl_usd, balance_after
+SCANNER:
+python fvg_scanner.py
+MÁQUINA DEL TIRMPO:
+python fvg_time_machine.py
+PAPER TRADER:
+python fvg_paper_trader.py

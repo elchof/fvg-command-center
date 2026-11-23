@@ -27,7 +27,7 @@ CONFIG = {
     "min_fvg_pct": 0.0006,          # Hueco mínimo: 0.06%
     "min_displacement_ratio": 0.35, # Hueco >= 35% del cuerpo de v2
     "sl_buffer_pct": 0.0001,        # Margen mínimo detrás de v1
-    "initial_capital": 10000.0,     # Saldo inicial paper (USD)
+    "initial_capital": 100.0,     # Saldo inicial paper (USD)
     "risk_per_trade_pct": 0.01,     # 1% de riesgo por operación en paper
     "loop_seconds": 60,             # Revisión cada 60s si se ejecuta en bucle
     "state_file": "paper_state.json",
