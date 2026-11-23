@@ -170,7 +170,7 @@ def fetch_15m(symbol: str, period: str, interval: str) -> Optional[pd.DataFrame]
         if df.index.tz is None:
             df.index = df.index.tz_localize("UTC")
         df = df.tz_convert("America/New_York")
-        return df[["Open", "High", "Low", "Close", "Volume"]].dropna()
+        return df[df.index + pd.Timedelta(minutes=15) <= pd.Timestamp.now(tz="America/New_York")][["Open", "High", "Low", "Close", "Volume"]].dropna()
     except Exception:
         return None
 
