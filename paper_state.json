@@ -1,5 +1,5 @@
 {
-  "balance": 90.28,
+  "balance": 87.55,
   "positions": {
     "TSLA": {
       "trade_id": "TSLA_20261121_120414",
@@ -17,49 +17,79 @@
       "entry_time": null
     },
     "BTC-USD": {
-      "trade_id": "BTC-USD_20261123_005957",
+      "trade_id": "BTC-USD_20261123_083921",
       "symbol": "BTC-USD",
-      "direction": "LONG",
+      "direction": "SHORT",
       "session": "CRYPTO_24_7",
       "status": "OPEN",
-      "fvg_time": "2026-11-22 19:00:00-05:00",
-      "created_at": "2026-11-23 00:59:57 UTC",
-      "entry_price": 61006.205078125,
-      "sl_price": 60773.293156640626,
-      "tp_price": 61472.02892109375,
-      "risk_amount": 0.92,
-      "expires_candle_idx_ref": "2026-11-22 19:00:00-05:00",
-      "entry_time": "2026-11-22 19:30:00-05:00"
+      "fvg_time": "2026-11-23 03:15:00-05:00",
+      "created_at": "2026-11-23 08:39:21 UTC",
+      "entry_price": 61314.259765625,
+      "sl_price": 61477.07678046875,
+      "tp_price": 60988.6257359375,
+      "risk_amount": 0.89,
+      "expires_candle_idx_ref": "2026-11-23 03:15:00-05:00",
+      "entry_time": "2026-11-23 03:30:00-05:00"
     },
     "ETH-USD": {
-      "trade_id": "ETH-USD_20261123_005958",
+      "trade_id": "ETH-USD_20261123_083921",
       "symbol": "ETH-USD",
-      "direction": "LONG",
+      "direction": "SHORT",
       "session": "CRYPTO_24_7",
       "status": "OPEN",
-      "fvg_time": "2026-11-22 16:00:00-05:00",
-      "created_at": "2026-11-23 00:59:58 UTC",
-      "entry_price": 1715.1950073242188,
-      "sl_price": 1709.249101940918,
-      "tp_price": 1727.08681809082,
-      "risk_amount": 0.91,
-      "expires_candle_idx_ref": "2026-11-22 16:00:00-05:00",
-      "entry_time": "2026-11-22 19:30:00-05:00"
+      "fvg_time": "2026-11-23 01:30:00-05:00",
+      "created_at": "2026-11-23 08:39:21 UTC",
+      "entry_price": 1724.0,
+      "sl_price": 1732.5532428833008,
+      "tp_price": 1706.8935142333985,
+      "risk_amount": 0.88,
+      "expires_candle_idx_ref": "2026-11-23 01:30:00-05:00",
+      "entry_time": "2026-11-23 01:45:00-05:00"
     },
     "SOL-USD": {
-      "trade_id": "SOL-USD_20261123_005958",
+      "trade_id": "SOL-USD_20261123_083921",
       "symbol": "SOL-USD",
       "direction": "LONG",
       "session": "CRYPTO_24_7",
       "status": "OPEN",
-      "fvg_time": "2026-11-22 19:15:00-05:00",
-      "created_at": "2026-11-23 00:59:58 UTC",
-      "entry_price": 70.39500045776367,
-      "sl_price": 70.11299074630737,
-      "tp_price": 70.95901988067627,
-      "risk_amount": 0.9,
-      "expires_candle_idx_ref": "2026-11-22 19:15:00-05:00",
-      "entry_time": "2026-11-22 19:30:00-05:00"
+      "fvg_time": "2026-11-22 22:30:00-05:00",
+      "created_at": "2026-11-23 08:39:21 UTC",
+      "entry_price": 71.06999969482422,
+      "sl_price": 70.14298652572631,
+      "tp_price": 72.92402603302003,
+      "risk_amount": 0.88,
+      "expires_candle_idx_ref": "2026-11-22 22:30:00-05:00",
+      "entry_time": "2026-11-22 22:45:00-05:00"
+    },
+    "GC=F": {
+      "trade_id": "GC=F_20261123_083922",
+      "symbol": "GC=F",
+      "direction": "SHORT",
+      "session": "LONDON",
+      "status": "PENDING",
+      "fvg_time": "2026-11-23 03:15:00-05:00",
+      "created_at": "2026-11-23 08:39:22 UTC",
+      "entry_price": 3612.3499755859375,
+      "sl_price": 3627.86275,
+      "tp_price": 3581.324426757813,
+      "risk_amount": 0.88,
+      "expires_candle_idx_ref": "2026-11-23 03:15:00-05:00",
+      "entry_time": null
+    },
+    "SI=F": {
+      "trade_id": "SI=F_20261123_083922",
+      "symbol": "SI=F",
+      "direction": "SHORT",
+      "session": "LONDON",
+      "status": "PENDING",
+      "fvg_time": "2026-11-23 03:15:00-05:00",
+      "created_at": "2026-11-23 08:39:22 UTC",
+      "entry_price": 42.28500175476074,
+      "sl_price": 42.584259831237794,
+      "tp_price": 41.68648560180664,
+      "risk_amount": 0.88,
+      "expires_candle_idx_ref": "2026-11-23 03:15:00-05:00",
+      "entry_time": null
     }
   },
   "seen_fvgs": [
@@ -86,6 +116,11 @@
     "SOL-USD|2026-11-22 15:15:00-05:00|SHORT",
     "BTC-USD|2026-11-22 19:00:00-05:00|LONG",
     "ETH-USD|2026-11-22 16:00:00-05:00|LONG",
-    "SOL-USD|2026-11-22 19:15:00-05:00|LONG"
+    "SOL-USD|2026-11-22 19:15:00-05:00|LONG",
+    "BTC-USD|2026-11-23 03:15:00-05:00|SHORT",
+    "ETH-USD|2026-11-23 01:30:00-05:00|SHORT",
+    "SOL-USD|2026-11-22 22:30:00-05:00|LONG",
+    "GC=F|2026-11-23 03:15:00-05:00|SHORT",
+    "SI=F|2026-11-23 03:15:00-05:00|SHORT"
   ]
 }
