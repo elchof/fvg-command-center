@@ -1,1 +1,87 @@
-﻿{"balance": 100.0, "positions": {}, "seen_fvgs": []}
+{
+  "balance": 100.0,
+  "positions": {
+    "BTC-USD": {
+      "trade_id": "BTC-USD_20261124_065302",
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-23 21:15:00-05:00",
+      "created_at": "2026-11-24 06:53:02 UTC",
+      "entry_price": 60938.888671875,
+      "sl_price": 61435.79140234375,
+      "tp_price": 59945.083210937504,
+      "risk_amount": 1.0,
+      "expires_candle_idx_ref": "2026-11-23 21:15:00-05:00",
+      "entry_time": null
+    },
+    "ETH-USD": {
+      "trade_id": "ETH-USD_20261124_065303",
+      "symbol": "ETH-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-23 21:00:00-05:00",
+      "created_at": "2026-11-24 06:53:03 UTC",
+      "entry_price": 1710.4150390625,
+      "sl_price": 1718.5117998168946,
+      "tp_price": 1694.2215175537108,
+      "risk_amount": 1.0,
+      "expires_candle_idx_ref": "2026-11-23 21:00:00-05:00",
+      "entry_time": null
+    },
+    "SOL-USD": {
+      "trade_id": "SOL-USD_20261124_065303",
+      "symbol": "SOL-USD",
+      "direction": "LONG",
+      "session": "CRYPTO_24_7",
+      "status": "OPEN",
+      "fvg_time": "2026-11-23 23:15:00-05:00",
+      "created_at": "2026-11-24 06:53:03 UTC",
+      "entry_price": 71.45000076293945,
+      "sl_price": 70.92290730514526,
+      "tp_price": 72.50418767852784,
+      "risk_amount": 1.0,
+      "expires_candle_idx_ref": "2026-11-23 23:15:00-05:00",
+      "entry_time": "2026-11-23 23:45:00-05:00"
+    },
+    "AAPL": {
+      "trade_id": "AAPL_20261124_065305",
+      "symbol": "AAPL",
+      "direction": "SHORT",
+      "session": "NY",
+      "status": "OPEN",
+      "fvg_time": "2026-11-23 11:00:00-05:00",
+      "created_at": "2026-11-24 06:53:05 UTC",
+      "entry_price": 350.3848571777344,
+      "sl_price": 352.63526610412595,
+      "tp_price": 345.88403932495123,
+      "risk_amount": 1.0,
+      "expires_candle_idx_ref": "2026-11-23 11:00:00-05:00",
+      "entry_time": "2026-11-23 14:30:00-05:00"
+    },
+    "MSFT": {
+      "trade_id": "MSFT_20261124_065307",
+      "symbol": "MSFT",
+      "direction": "SHORT",
+      "session": "NY",
+      "status": "PENDING",
+      "fvg_time": "2026-11-23 11:00:00-05:00",
+      "created_at": "2026-11-24 06:53:07 UTC",
+      "entry_price": 501.2974548339844,
+      "sl_price": 505.100492791748,
+      "tp_price": 493.6913789184571,
+      "risk_amount": 1.0,
+      "expires_candle_idx_ref": "2026-11-23 11:00:00-05:00",
+      "entry_time": null
+    }
+  },
+  "seen_fvgs": [
+    "BTC-USD|2026-11-23 21:15:00-05:00|SHORT",
+    "ETH-USD|2026-11-23 21:00:00-05:00|SHORT",
+    "SOL-USD|2026-11-23 23:15:00-05:00|LONG",
+    "AAPL|2026-11-23 11:00:00-05:00|SHORT",
+    "MSFT|2026-11-23 11:00:00-05:00|SHORT"
+  ]
+}
