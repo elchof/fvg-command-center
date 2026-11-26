@@ -1,5 +1,5 @@
 {
-  "balance": 125.68,
+  "balance": 124.42,
   "positions": {
     "BTC-USD": {
       "trade_id": "BTC-USD_20261126_031159",
@@ -32,19 +32,19 @@
       "entry_time": "2026-11-25 20:00:00-05:00"
     },
     "SOL-USD": {
-      "trade_id": "SOL-USD_20261126_031200",
+      "trade_id": "SOL-USD_20261126_124222",
       "symbol": "SOL-USD",
       "direction": "LONG",
       "session": "CRYPTO_24_7",
       "status": "OPEN",
-      "fvg_time": "2026-11-25 21:15:00-05:00",
-      "created_at": "2026-11-26 03:12:00 UTC",
-      "entry_price": 71.125,
-      "sl_price": 70.75292613601685,
-      "tp_price": 71.8691477279663,
-      "risk_amount": 1.26,
-      "expires_candle_idx_ref": "2026-11-25 21:15:00-05:00",
-      "entry_time": "2026-11-25 21:45:00-05:00"
+      "fvg_time": "2026-11-26 06:30:00-05:00",
+      "created_at": "2026-11-26 12:42:22 UTC",
+      "entry_price": 70.5999984741211,
+      "sl_price": 70.35296461029053,
+      "tp_price": 71.09406620178223,
+      "risk_amount": 1.24,
+      "expires_candle_idx_ref": "2026-11-26 06:30:00-05:00",
+      "entry_time": "2026-11-26 07:15:00-05:00"
     }
   },
   "seen_fvgs": [
@@ -76,6 +76,7 @@
     "SOL-USD|2026-11-25 14:15:00-05:00|LONG",
     "BTC-USD|2026-11-25 19:45:00-05:00|SHORT",
     "ETH-USD|2026-11-25 19:45:00-05:00|SHORT",
-    "SOL-USD|2026-11-25 21:15:00-05:00|LONG"
+    "SOL-USD|2026-11-25 21:15:00-05:00|LONG",
+    "SOL-USD|2026-11-26 06:30:00-05:00|LONG"
   ]
 }
