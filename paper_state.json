@@ -1,5 +1,5 @@
 {
-  "balance": 124.42,
+  "balance": 126.9,
   "positions": {
     "BTC-USD": {
       "trade_id": "BTC-USD_20261126_031159",
@@ -30,21 +30,6 @@
       "risk_amount": 1.26,
       "expires_candle_idx_ref": "2026-11-25 19:45:00-05:00",
       "entry_time": "2026-11-25 20:00:00-05:00"
-    },
-    "SOL-USD": {
-      "trade_id": "SOL-USD_20261126_124222",
-      "symbol": "SOL-USD",
-      "direction": "LONG",
-      "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-26 06:30:00-05:00",
-      "created_at": "2026-11-26 12:42:22 UTC",
-      "entry_price": 70.5999984741211,
-      "sl_price": 70.35296461029053,
-      "tp_price": 71.09406620178223,
-      "risk_amount": 1.24,
-      "expires_candle_idx_ref": "2026-11-26 06:30:00-05:00",
-      "entry_time": "2026-11-26 07:15:00-05:00"
     }
   },
   "seen_fvgs": [
