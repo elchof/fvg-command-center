@@ -1,35 +1,50 @@
 {
-  "balance": 126.9,
+  "balance": 124.38,
   "positions": {
     "BTC-USD": {
-      "trade_id": "BTC-USD_20261126_031159",
+      "trade_id": "BTC-USD_20261127_040055",
       "symbol": "BTC-USD",
-      "direction": "SHORT",
+      "direction": "LONG",
       "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-25 19:45:00-05:00",
-      "created_at": "2026-11-26 03:11:59 UTC",
-      "entry_price": 60641.76953125,
-      "sl_price": 61462.49719765625,
-      "tp_price": 59000.314198437496,
+      "status": "PENDING",
+      "fvg_time": "2026-11-26 21:15:00-05:00",
+      "created_at": "2026-11-27 04:00:55 UTC",
+      "entry_price": 60878.08984375,
+      "sl_price": 60522.966629296876,
+      "tp_price": 61588.33627265625,
       "risk_amount": 1.26,
-      "expires_candle_idx_ref": "2026-11-25 19:45:00-05:00",
-      "entry_time": "2026-11-25 20:00:00-05:00"
+      "expires_candle_idx_ref": "2026-11-26 21:15:00-05:00",
+      "entry_time": null
     },
     "ETH-USD": {
-      "trade_id": "ETH-USD_20261126_031159",
+      "trade_id": "ETH-USD_20261127_040055",
       "symbol": "ETH-USD",
-      "direction": "SHORT",
+      "direction": "LONG",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-26 21:15:00-05:00",
+      "created_at": "2026-11-27 04:00:55 UTC",
+      "entry_price": 1705.364990234375,
+      "sl_price": 1695.8404087646484,
+      "tp_price": 1724.4141531738283,
+      "risk_amount": 1.24,
+      "expires_candle_idx_ref": "2026-11-26 21:15:00-05:00",
+      "entry_time": null
+    },
+    "SOL-USD": {
+      "trade_id": "SOL-USD_20261127_040055",
+      "symbol": "SOL-USD",
+      "direction": "LONG",
       "session": "CRYPTO_24_7",
       "status": "OPEN",
-      "fvg_time": "2026-11-25 19:45:00-05:00",
-      "created_at": "2026-11-26 03:11:59 UTC",
-      "entry_price": 1698.6150512695312,
-      "sl_price": 1727.8727211669923,
-      "tp_price": 1640.0997114746092,
-      "risk_amount": 1.26,
-      "expires_candle_idx_ref": "2026-11-25 19:45:00-05:00",
-      "entry_time": "2026-11-25 20:00:00-05:00"
+      "fvg_time": "2026-11-26 22:15:00-05:00",
+      "created_at": "2026-11-27 04:00:55 UTC",
+      "entry_price": 72.58000183105469,
+      "sl_price": 72.242775,
+      "tp_price": 73.25445549316407,
+      "risk_amount": 1.24,
+      "expires_candle_idx_ref": "2026-11-26 22:15:00-05:00",
+      "entry_time": "2026-11-26 22:45:00-05:00"
     }
   },
   "seen_fvgs": [
@@ -62,6 +77,9 @@
     "BTC-USD|2026-11-25 19:45:00-05:00|SHORT",
     "ETH-USD|2026-11-25 19:45:00-05:00|SHORT",
     "SOL-USD|2026-11-25 21:15:00-05:00|LONG",
-    "SOL-USD|2026-11-26 06:30:00-05:00|LONG"
+    "SOL-USD|2026-11-26 06:30:00-05:00|LONG",
+    "BTC-USD|2026-11-26 21:15:00-05:00|LONG",
+    "ETH-USD|2026-11-26 21:15:00-05:00|LONG",
+    "SOL-USD|2026-11-26 22:15:00-05:00|LONG"
   ]
 }
