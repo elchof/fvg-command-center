@@ -1,51 +1,6 @@
 {
-  "balance": 131.82,
+  "balance": 135.81,
   "positions": {
-    "BTC-USD": {
-      "trade_id": "BTC-USD_20261127_222233",
-      "symbol": "BTC-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "OPEN",
-      "fvg_time": "2026-11-27 15:15:00-05:00",
-      "created_at": "2026-11-27 22:22:33 UTC",
-      "entry_price": 59764.701171875,
-      "sl_price": 59956.92478046875,
-      "tp_price": 59380.253954687505,
-      "risk_amount": 1.29,
-      "expires_candle_idx_ref": "2026-11-27 15:15:00-05:00",
-      "entry_time": "2026-11-27 15:45:00-05:00"
-    },
-    "ETH-USD": {
-      "trade_id": "ETH-USD_20261127_222233",
-      "symbol": "ETH-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "PENDING",
-      "fvg_time": "2026-11-27 15:00:00-05:00",
-      "created_at": "2026-11-27 22:22:33 UTC",
-      "entry_price": 1670.3999633789062,
-      "sl_price": 1674.0173605834962,
-      "tp_price": 1663.1651689697264,
-      "risk_amount": 1.32,
-      "expires_candle_idx_ref": "2026-11-27 15:00:00-05:00",
-      "entry_time": null
-    },
-    "SOL-USD": {
-      "trade_id": "SOL-USD_20261127_222233",
-      "symbol": "SOL-USD",
-      "direction": "SHORT",
-      "session": "CRYPTO_24_7",
-      "status": "PENDING",
-      "fvg_time": "2026-11-27 15:00:00-05:00",
-      "created_at": "2026-11-27 22:22:33 UTC",
-      "entry_price": 72.11000061035156,
-      "sl_price": 72.41724466247558,
-      "tp_price": 71.49551250610352,
-      "risk_amount": 1.32,
-      "expires_candle_idx_ref": "2026-11-27 15:00:00-05:00",
-      "entry_time": null
-    },
     "SPY": {
       "trade_id": "SPY_20261127_222234",
       "symbol": "SPY",
@@ -165,6 +120,51 @@
       "risk_amount": 1.32,
       "expires_candle_idx_ref": "2026-11-27 09:30:00-05:00",
       "entry_time": "2026-11-27 09:45:00-05:00"
+    },
+    "BTC-USD": {
+      "trade_id": "BTC-USD_20261128_040910",
+      "symbol": "BTC-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-27 21:45:00-05:00",
+      "created_at": "2026-11-28 04:09:10 UTC",
+      "entry_price": 59994.599609375,
+      "sl_price": 60206.02,
+      "tp_price": 59571.75882812501,
+      "risk_amount": 1.31,
+      "expires_candle_idx_ref": "2026-11-27 21:45:00-05:00",
+      "entry_time": null
+    },
+    "ETH-USD": {
+      "trade_id": "ETH-USD_20261128_040911",
+      "symbol": "ETH-USD",
+      "direction": "SHORT",
+      "session": "CRYPTO_24_7",
+      "status": "PENDING",
+      "fvg_time": "2026-11-27 21:45:00-05:00",
+      "created_at": "2026-11-28 04:09:11 UTC",
+      "entry_price": 1665.3250122070312,
+      "sl_price": 1671.2071430664062,
+      "tp_price": 1653.5607504882814,
+      "risk_amount": 1.33,
+      "expires_candle_idx_ref": "2026-11-27 21:45:00-05:00",
+      "entry_time": null
+    },
+    "SOL-USD": {
+      "trade_id": "SOL-USD_20261128_040911",
+      "symbol": "SOL-USD",
+      "direction": "LONG",
+      "session": "CRYPTO_24_7",
+      "status": "OPEN",
+      "fvg_time": "2026-11-27 19:00:00-05:00",
+      "created_at": "2026-11-28 04:09:11 UTC",
+      "entry_price": 71.4900016784668,
+      "sl_price": 71.1828834411621,
+      "tp_price": 72.10423815307618,
+      "risk_amount": 1.36,
+      "expires_candle_idx_ref": "2026-11-27 19:00:00-05:00",
+      "entry_time": "2026-11-27 22:15:00-05:00"
     }
   },
   "seen_fvgs": [
@@ -213,6 +213,9 @@
     "TSLA|2026-11-27 10:30:00-05:00|LONG",
     "META|2026-11-27 11:15:00-05:00|SHORT",
     "GOOGL|2026-11-27 10:00:00-05:00|SHORT",
-    "MSFT|2026-11-27 09:30:00-05:00|LONG"
+    "MSFT|2026-11-27 09:30:00-05:00|LONG",
+    "BTC-USD|2026-11-27 21:45:00-05:00|SHORT",
+    "ETH-USD|2026-11-27 21:45:00-05:00|SHORT",
+    "SOL-USD|2026-11-27 19:00:00-05:00|LONG"
   ]
 }
